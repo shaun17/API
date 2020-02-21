@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dfyz.provied.yiliutochain.dao.GPSyiliuDao">
+    <select id="queryList" resultType="com.dfyz.provied.yiliutochain.po.GPSyiliu" >
+        select * from ebox_car_gpsinfo
+    </select>
+
+    <insert id="saveToChain" parameterType="com.dfyz.provied.yiliutochain.po.GPSyiliu">
+        insert into ebox_car_gpsinfo  (GPSTime,DeviceNumber,Lon,Lat,Speed,Direction,TotalMileage)
+        values (#{GpsTime},#{Wid},#{Lon},#{Lat},
+        #{Speed},#{Direction},#{Odometer})
+    </insert>
+
+</mapper>

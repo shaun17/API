@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dfyz.provied.dataprovied.dao.LocationInfoMsgDao">
+   <select id="queryList" resultType="com.dfyz.provied.dataprovied.po.LocationInfoMsg" parameterType="map">
+       select PlateNumber,DeviceNumber,FlowId,WarningFlagField,Status,Lat,Lon,Elevation,Speed,Direction
+       ,GPSTime,AttachId,AttachLength
+      from ebox_car_gpsinfo
+      <where>
+          <if test="params.plateNumber!=null and  params.plateNumber!=''">
+              PlateNumber = #{params.plateNumber}
+          </if>
+          <if test="params.terminalPhone!=null and  params.terminalPhone!=''">
+              DeviceNumber = #{params.terminalPhone}
+          </if>
+          <if test="params.flowId!=null and  params.flowId!=''">
+              FlowId = #{params.flowId}
+          </if>
+          <if test="params.warningFlagField!=null and  params.warningFlagField!=''">
+              WarningFlagField = #{params.warningFlagField}
+          </if>
+          <if test="params.statusField!=null and  params.statusField!=''">
+              Status = #{params.statusField}
+          </if>
+          <if test="params.latitude!=null and  params.latitude!=''">
+              Lat = #{params.latitude}
+          </if>
+          <if test="params.longitude!=null and  params.longitude!=''">
+              Lon = #{params.longitude}
+          </if>
+          <if test="params.elevation!=null and  params.elevation!=''">
+              Elevation = #{params.elevation}
+          </if>
+          <if test="params.speed!=null and  params.speed!=''">
+              Speed = #{params.speed}
+          </if>
+          <if test="params.direction!=null and  params.direction!=''">
+              Direction = #{params.direction}
+          </if>
+          <if test="params.time!=null and  params.time!=''">
+              GPSTime = #{params.time}
+          </if>
+          <if test="params.attachId!=null and  params.attachId!=''">
+              AttachId = #{params.attachId}
+          </if>
+          <if test="params.attachLength!=null and  params.attachLength!=''">
+              AttachLength = #{params.attachLength}
+          </if>
+          <if test="params.attachLength!=null and  params.attachLength!=''">
+              AttachLength = #{params.attachLength}
+          </if>
+      </where>
+   </select>
+   
+</mapper>
