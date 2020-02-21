@@ -87,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yiliutochain/src/main/java/com/dfyz/provied/yiliutochain/config/RequestFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+            <state relative-caret-position="104">
+              <caret line="42" column="39" lean-forward="true" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -370,66 +370,7 @@
               <item name="yiliutochain" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yiliutochain" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trailerdatatransfor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trailerdatatransfor" type="462c0819:PsiDirectoryNode" />
-              <item name="yiliutochain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yiliutochain" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trailerdatatransfor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trailerdatatransfor" type="462c0819:PsiDirectoryNode" />
-              <item name="yiliutochain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yiliutochain" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trailerdatatransfor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trailerdatatransfor" type="462c0819:PsiDirectoryNode" />
-              <item name="yiliutochain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yiliutochain" type="462c0819:PsiDirectoryNode" />
-              <item name="po" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trailerdatatransfor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trailerdatatransfor" type="462c0819:PsiDirectoryNode" />
-              <item name="yiliutochain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yiliutochain" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trailerdatatransfor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trailerdatatransfor" type="462c0819:PsiDirectoryNode" />
-              <item name="yiliutochain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trailerdatatransfor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trailerdatatransfor" type="462c0819:PsiDirectoryNode" />
-              <item name="yiliutochain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -595,12 +536,12 @@
       <updated>1581997125063</updated>
       <workItem from="1581997127879" duration="19982000" />
       <workItem from="1582092594182" duration="205000" />
-      <workItem from="1582092877235" duration="44421000" />
+      <workItem from="1582092877235" duration="46731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64608000" />
+    <option name="totallyTimeSpent" value="66918000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -625,12 +566,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.33261338" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3812095" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3812095" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32937366" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.31425485" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31425485" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005325" side_tool="true" weight="0.33261338" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32937366" />
@@ -1276,8 +1217,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yiliutochain/src/main/java/com/dfyz/provied/yiliutochain/config/RequestFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+        <state relative-caret-position="104">
+          <caret line="42" column="39" lean-forward="true" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
