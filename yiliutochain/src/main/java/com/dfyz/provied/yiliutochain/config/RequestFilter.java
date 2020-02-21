@@ -13,7 +13,6 @@ import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.concurrent.ThreadPoolExecutor;
 
 @Configuration
 @Order(1)
