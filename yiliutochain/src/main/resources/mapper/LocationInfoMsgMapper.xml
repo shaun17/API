@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.dfyz.provied.yiliutochain.dao.Dao">
-    <select id="queryList" resultType="com.dfyz.provied.yiliutochain.po.LocationInfoMsg" >
-        select * from location_info_upload_msg where tx_hash is not null
-    </select>
-
-
-</mapper>

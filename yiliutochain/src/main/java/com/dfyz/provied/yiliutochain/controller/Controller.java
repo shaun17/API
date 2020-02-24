@@ -4,7 +4,6 @@ import com.alibaba.fastjson.JSONObject;
 import com.dfyz.provied.yiliutochain.common.CommonResponse;
 import com.dfyz.provied.yiliutochain.po.GPSyiliu;
 import com.dfyz.provied.yiliutochain.service.GPSyiliuService;
-import com.dfyz.provied.yiliutochain.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -14,17 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 
     @Autowired
-    ServiceImpl service;
-
-    @Autowired
     GPSyiliuService gpSyiliuService;
-
-    @PostMapping("/dfyz/queryList")
-    public CommonResponse queryList(String JSON) {
-        service.query();
-        return new CommonResponse();
-
-    }
 
     @PostMapping("/dfyz/toChain")
     public CommonResponse toChain(@RequestBody String JSON) {
