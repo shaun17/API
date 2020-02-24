@@ -5,6 +5,7 @@ import com.dfyz.provied.yiliutochain.common.Common;
 import com.dfyz.provied.yiliutochain.common.CommonResponse;
 import com.dfyz.provied.yiliutochain.util.RSAUtil;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.core.annotation.Order;
 
 import javax.servlet.*;
@@ -13,7 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-//@Configuration
+@Configuration
 @Order(1)
 @WebFilter(filterName = "piceaFilter", urlPatterns = "/*")
 public class RequestFilter implements Filter {

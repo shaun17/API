@@ -1,6 +1,16 @@
 package com.dfyz.provied.yiliutochain.po;
 
 public class GPSyiliu {
+    private String PlateNumber;
+
+    public String getPlateNumber() {
+        return PlateNumber;
+    }
+
+    public void setPlateNumber(String plateNumber) {
+        PlateNumber = plateNumber;
+    }
+
     private String GpsTime;
     private String Wid;
     private double Lon;
