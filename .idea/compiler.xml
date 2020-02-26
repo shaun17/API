@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dataprovied" />
+        <module name="dfyzdatatranfordemo" />
         <module name="yiliutochain" />
         <module name="datatransfor" />
-        <module name="dfyzdatatranfordemo" />
-        <module name="dataprovied" />
       </profile>
     </annotationProcessing>
   </component>
