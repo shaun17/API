@@ -23,9 +23,10 @@ public class Controller {
             JSONObject str = (JSONObject) jsonObject.get("data");
             GPSyiliu yiliu = (GPSyiliu) JSONObject.toJavaObject(str, GPSyiliu.class);
             if (yiliu == null) return new CommonResponse(500, false, "数据解析失败");
-            String PlateNumber = (String) jsonObject.get("ragname");
-            if (StringUtils.isNotBlank(PlateNumber)) yiliu.setPlateNumber(PlateNumber);
-            //GPSyiliu gps =  (GPSyiliu) JSONObject.toJavaObject(jsonObject, GPSyiliu.class);
+            String plateNumber = (String) jsonObject.get("ragname");
+            String content = (String) jsonObject.get("content");
+            if (StringUtils.isNotBlank(content)) yiliu.setContent(content);
+            if (StringUtils.isNotBlank(plateNumber)) yiliu.setPlateNumber(plateNumber);
             int i = gpSyiliuService.saveToChain(yiliu);
             return (i > 0) ? new CommonResponse() : new CommonResponse(500, false, "数据接收失败");
         } catch (Exception e) {

@@ -6,8 +6,8 @@
     </select>
 
     <insert id="saveToChain" parameterType="com.dfyz.provied.yiliutochain.po.GPSyiliu">
-        insert into ebox_car_gpsinfo_yiliu  (PlateNumber,GPSTime,DeviceNumber,Lon,Lat,Speed,Direction,TotalMileage)
-        values (#{PlateNumber},#{GpsTime},#{Wid},#{Lon},#{Lat},
+        insert into ebox_car_gpsinfo_yiliu  (Content,PlateNumber,GPSTime,DeviceNumber,Lon,Lat,Speed,Direction,TotalMileage)
+        values (#{Content},#{PlateNumber},#{GpsTime},#{Wid},#{Lon},#{Lat},
         #{Speed},#{Direction},#{Odometer})
     </insert>
 

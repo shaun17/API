@@ -18,6 +18,15 @@ public class GPSyiliu {
     private int Speed;
     private int Direction;
     private double Odometer;
+    private String Content;
+
+    public String getContent() {
+        return Content;
+    }
+
+    public void setContent(String content) {
+        Content = content;
+    }
 
     public String getGpsTime() {
         return GpsTime;
